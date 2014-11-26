@@ -1,6 +1,6 @@
 # three-gl-state-example
 
-[demo](mattdesl.github.io/three-gl-state-example)
+[demo](http://mattdesl.github.io/three-gl-state-example/index.html)
 
 An example of using [three-orbit-viewer](https://www.npmjs.org/package/three-orbit-viewer) in conjunction with stackGL modules. 
 
