@@ -17,10 +17,13 @@
     "touch-position": "^1.0.3"
   },
   "devDependencies": {
-    "beefy": "git://github.com/mattdesl/beefy#fix-html"
+    "beefy": "git://github.com/mattdesl/beefy#fix-html",
+    "browserify": "^6.3.3",
+    "uglify-js": "^2.4.15"
   },
   "scripts": {
-    "start": "beefy index.js --open"
+    "start": "beefy index.js --open",
+    "build": "mkdir -p static && browserify index.js | uglifyjs -m > static/bundle.js"
   },
   "keywords": [],
   "repository": {
